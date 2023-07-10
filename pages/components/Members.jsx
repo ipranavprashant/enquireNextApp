@@ -102,7 +102,7 @@ const Members = () => {
 
   return (
     <div>
-    <Header1 title="EVENTS"/>
+    <Header1 title="MEMBERS"/>
     <div className={`${styles.container} ${isMenuOpen ? styles['menu-open'] : ''}`}>
       <div className={`${styles.hamburger} ${isMenuOpen ? styles.hidden : ''}`} onClick={handleToggleMenu}>
         <div className={styles.line}></div>
