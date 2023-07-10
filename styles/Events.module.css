@@ -1,0 +1,23 @@
+.wrapper{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.heading{
+    font-family: Domine;
+    font-size: 38px;
+    font-weight: 400;
+    line-height: 43px;
+    letter-spacing: 0em;
+    margin-left: 3.5rem;
+    margin-top: 1rem;
+}
+
+@media screen and (max-width:1000px) {
+    .heading{
+        font-size: 18px;
+        line-height: 30px;
+        margin-left: 1rem;
+    }
+}

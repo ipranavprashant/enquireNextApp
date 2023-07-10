@@ -1,0 +1,48 @@
+.wrapper{
+    height: 20vh;
+    display: flex;
+    justify-content: space-between;
+    background-color: #252C30;
+}
+
+.footerLeft{
+    margin-left: 3rem;
+    margin-top: 2rem;
+}
+
+.title{
+    color: #FFF;
+    font-size: 20px;
+    font-family: Inter;
+    font-weight: 600;
+    letter-spacing: -0.2px;
+}
+
+.icon {
+    color: white;
+    margin-right: 1rem;
+    cursor: pointer;
+}
+
+.copyright{
+    color: #FFF;
+    font-size: 14px;
+    font-family: Inter;
+    font-weight: 600;
+}
+
+@media screen and (max-width:700px) {
+    .wrapper{
+        height: 12vh;
+    }
+    .title{
+        font-size: 15px;
+    }
+    .copyright{
+        font-size: 10px;
+    }
+    .footerLeft{
+        margin-left: 1rem;
+        margin-top: 10px;
+    }
+}

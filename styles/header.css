@@ -1,0 +1,30 @@
+
+  @media (max-width: 1535px) {
+    .hide-on-mobile1536 {
+      display: none;
+    }
+  }
+  
+  @media (max-width: 1279px) {
+    .hide-on-mobile1280 {
+      display: none;
+    }
+  }
+  
+  @media (max-width: 1024px) {
+    .hide-on-mobile1024 {
+      display: none;
+    }
+  }
+  
+  @media (max-width: 767px) {
+    .hide-on-mobile768 {
+      display: none;
+    }
+  }
+  
+  @media (max-width: 639px) {
+    .hide-on-mobile640 {
+      display: none;
+    }
+  }

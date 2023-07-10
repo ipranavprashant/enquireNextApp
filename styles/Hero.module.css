@@ -1,0 +1,49 @@
+.wrapper{
+    height: 92vh;
+    /* width: auto; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 4rem;
+    flex-wrap: wrap;
+}
+
+.clubName{
+    color: #000;
+    font-size: 56px;
+    font-family: Domine;
+    letter-spacing: 1.12px;
+}
+
+.motto{
+    color: #000;
+    font-size: 28px;
+    font-family: Inter;
+    font-style: italic;
+}
+
+.socials{
+    margin-top: 0.5rem;
+    cursor: pointer;
+}
+
+.icon {
+    color: black;
+    margin-right: 1rem;
+}
+
+@media screen and (max-width:1000px) {
+
+    .wrapper{
+        height: 80vh;
+        margin-top: auto;
+    }
+    .clubName{
+        font-size: 25px;
+    }
+
+    .motto{
+        font-size: 15px;
+    }
+}
+  

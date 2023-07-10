@@ -1,0 +1,33 @@
+.container{
+    width:24rem;
+    height: 24rem;
+    background-color: bisque;
+    border-radius: 40px;
+    margin-top: 5rem;
+    cursor: pointer;
+}
+
+.container:hover{
+    transform: scale(1.1);
+}
+
+.image{
+    width: 20rem;
+    height: 20rem;
+    margin-top: 1.5rem;
+    border-radius: 20px;
+}
+
+.centering{
+    display: flex;
+    justify-content: center;
+}
+
+.eventName{
+    text-align: center;
+    font-family: Domine;
+    font-size: 31px;
+    font-weight: 400;
+    line-height: 35px;
+    letter-spacing: 0em;
+}
